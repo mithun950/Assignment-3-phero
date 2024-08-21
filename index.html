@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- theme tailwind -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                btn_primary:'#ABEF5F'
+              }
+            }
+          }
+        }
+      </script>
+      <!-- fontawsume kit -->
+      <script src="https://kit.fontawesome.com/62a0fae379.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header area strat -->
+     <header class="w-11/12 mx-auto">
+        <!-- nav area start -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start space-x-1">
+                <i class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45 "></i>
+              <a class="font-bold text-3xl ">Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-xl">
+                <li><a class="font-bold" href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Protfulio</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="max-sm:hidden lg:block mr-2 border-[1px] rounded-full bg-white p-2 " href=""><i class="fa-solid fa-magnifying-glass "></i></a>
+                <a class="max-sm:hidden lg:block mr-2 space-x-1 border-[1px] rounded-full bg-white p-2 " href=""><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="btn rounded-3xl bg-[#ABEF5F] font-bold max-sm:hidden  ">Book Consult <i class="fa-solid fa-arrow-right bg-black p-2 rounded-full -rotate-45 text-white "></i></a>
+            </div>
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <i class="fa-solid fa-bars lg:hidden  border-[1px] rounded-full bg-white p-2"></i>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-1 shadow right-0 left-auto ">
+                  <li><a class="font-bold" href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Protfulio</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Contact Us</a></li>
+                </ul>
+              </div>
+          </div>
+          <!-- nav area start -->
+
+          <!-- banner area start -->
+           <section class="w-11/12 mx-auto">
+            <div>
+                <img class="mx-auto" src="./assets/banner.png" alt="">
+            </div>
+            <h1 class="text-3xl md:text-5xl font-bold text-center mt-5">
+                A barn house of this design has a <br> striking appearance 
+            </h1>
+            <p class="text-center mt-5">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
+            </p>
+            <div class="text-center mt-5">
+            <a class="btn mx- rounded-3xl bg-[#ABEF5F80] font-bold ">View Details <i class="fa-solid fa-arrow-right bg-btn_primary p-2 rounded-full -rotate-45  "></i></a>
+        </div>
+        </section>
+           <!-- banner area end -->
+     </header>
+     <!-- header area end -->
+
+     <!-- main area start -->
+      <main>
+         <!-- hero area start -->
+          <section class="bg-slate-50 mt-20 py-4">
+            <div class="w-11/12 ml-10">
+            <div >
+            <img src=".assets/Vector.png" alt="">
+        </div>
+    </div>
+          </section>
+          <!-- hero area end -->
+      </main>
+      <!-- main area end  -->
+
+      <!-- footer area start -->
+       <footer>
+
+       </footer>
+       <!-- footer area end -->
+</body>
+</html>
